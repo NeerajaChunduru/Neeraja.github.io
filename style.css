@@ -1,0 +1,153 @@
+body{
+font-family: Arial, sans-serif;
+font-size: 15px;
+line-height:40px;
+padding:0;
+margin:0;
+}
+.container{
+width: 80%;
+margin:auto;
+overflow:hidden;
+}
+.container p{
+font-size:18px;
+}
+.main{
+margin:auto;
+}
+header{
+background:blue;
+color:black;
+padding-top: 40px;
+min-height:70px;
+border-bottom: green 3px solid;
+}
+header a{
+color: black;
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+}
+h4{
+text-align:center;
+}
+ul{
+margin:auto;
+padding:0;
+}
+header li{
+text-align:center;
+display:inline;
+padding:0 20px 0 20px;
+font-weight:bold;
+}
+header #logo{
+float:center;
+}
+header #logo h1{
+margin:0;
+}
+header nav{
+text-align:center;
+margin:auto;
+}
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+#show{
+min-height:300px;
+text-align:center;
+text-color:red;
+}
+#show h1{
+margin-top:100px;
+font-size:55px;
+margin-bottom:10px;
+}
+#show p{
+font-size:20px;
+}
+aside#sidebar{
+float:right;
+width:30%;
+margin-top:50px;
+min-height:200px;
+}
+article#main-col{
+float:left;
+width:65%;
+}
+.dark{
+padding:15px;
+background:#35424a;
+color:#ffffff;
+margin-top:30px;
+margin-bottom:10px;
+}
+aside#sidebar .contact-me input, aside#sidebar .contact-me textarea{
+width:100%;
+padding:5px;
+}
+#sidebar .contact-me button{
+display:bolck;
+width:100%;
+}
+#sidebar .contact-me input, .contact-me textarea{
+width:100%;
+margin-bottom:5px;
+}
+#left-column {
+	width:200px;
+	top:70px;
+        float:left;
+        position:relative; 
+        padding:0px;
+        margin:0;
+        height:150px;
+ }
+ul#projects li{
+list-style:none;
+padding:20px;
+border: #cccccc solid 2px;
+margin-bottom:5px;
+background: #e6e6e6;
+text-indent:50px;
+text-align:center;
+}
+ul#projects li p{
+text-align:left;
+text-justify:auto;
+}
+ul#education li{
+list-style:none;
+padding:20px;
+border: #cccccc solid 2px;
+margin-bottom:5px;
+background: #e6e6e6;
+text-align:center;
+}
+ul#home li{
+list-style:none;
+padding:20px;
+border: #cccccc solid 2px;
+margin-bottom:5px;
+background: #e6e6e6;
+text-align:center;
+}
+ul#work-history li{
+list-style:none;
+padding:20px;
+border: #cccccc solid 2px;
+margin-bottom:5px;
+background: #e6e6e6;
+}
+ul#email li{
+list-style:none;
+padding:20px;
+border: #cccccc solid 2px;
+margin-bottom:5px;
+background: #e6e6e6;
+text-align:center;
+}
